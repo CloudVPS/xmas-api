@@ -12,19 +12,19 @@ Adjust the apc.go file with your APC unit and compile with go build.
 
 # Usage
 
-Run the server and use the API on http://<ip>:8000/v1/apc/
+Run the server and use the API on http://\<ip>:8000/v1/apc/
 
 ## Switch on:
 
- GET http://<ip>:8000/v1/apc/?loc=cloud&port=4&state=ON
+ GET http://\<ip>\:8000/v1/apc/?loc=cloud&port=4&state=ON
 
 ## Switch off:
 
- GET http://<ip>:8000/v1/apc/?loc=cloud&port=4&state=OFF
+ GET http://\<ip\>:8000/v1/apc/?loc=cloud&port=4&state=OFF
 
 ## Switch flip:
 
- GET http://<ip>:8000/v1/apc/?loc=cloud&port=4&state=FLIP
+ GET http://\<ip>\:8000/v1/apc/?loc=cloud&port=4&state=FLIP
 
 # Todo
 
